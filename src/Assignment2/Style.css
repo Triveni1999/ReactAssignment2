@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    background-image: linear-gradient(lightblue, lightpink, white);
+    background-repeat: no-repeat;
+  }
+  .form {
+    height: 500px;
+    text-align: center;
+    line-height: 100px;
+  }
+  .labell {
+    font-size: 29px;
+  }
+  .inputt {
+    text-align: center;
+    background-color: lightcyan;
+    height: 42px;
+    width: 30%;
+    font-size: 23px;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 8px;
+  }
+  button {
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: lightblue;
+    font-size: 25px;
+    padding: 10px;
+    width: 270px;
+  }
+  button:hover {
+    background-color: cyan;
+    transform: scale(1.1);
+  }
+  .main-box {
+    border: 2px solid black;
+    background-color: lightblue;
+    width: 80%;
+    margin-left: 8.5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .detail-box {
+    height: 70px;
+    width: 42%;
+    margin: 30px;
+    padding-bottom: 25px;
+    text-align: center;
+    font-size: large;
+    font-weight: 600;
+    background-color: pink;
+    border: 2px solid black;
+    border-radius: 20px;
+  }
+  @media screen and (max-width: 1100px) {
+    .main-box {
+      display: block;
+    }
+    .detail-box {
+      margin-left: 15%;
+      width: 70%;
+    }
+  }
